@@ -37,7 +37,6 @@ pushd package/small
 # nikki
 # git clone -b main --depth 1 https://github.com/nikkinikki-org/OpenWrt-nikki.git
 # only needs to be run once
-echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
 # 添加alist
 git clone -b main --depth 1 https://github.com/sbwml/luci-app-alist.git
 
