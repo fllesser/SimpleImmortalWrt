@@ -34,6 +34,13 @@ pushd package/small
 # git clone -b v5 --depth 1 https://github.com/sbwml/luci-app-mosdns.git
 # #openclash
 # git clone -b master --depth 1 https://github.com/vernesong/OpenClash.git
+# nikki
+# git clone -b main --depth 1 https://github.com/nikkinikki-org/OpenWrt-nikki.git
+# only needs to be run once
+echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> "feeds.conf.default"
+# 添加alist
+git clone -b main --depth 1 https://github.com/sbwml/luci-app-alist.git
+
 
 popd
 
